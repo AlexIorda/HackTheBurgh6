@@ -27,5 +27,31 @@ def closest_distance_to_atm(s):
         if (dist < mn):
             mn = dist
     return mn
+def get_minimum_balance_repayment_rate(s): # cat platesti inapoi pe luna minim
+    #returns the minimum balance ...  for bank with the path s
+    #daca are in json dupa data [] trb scoase de la inceput si final
+    with open (s) as f:
+        ccc_data = json.load(f)
+    #consumer credit compilance
+    min_rate = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["Repayment"]["MinBalanceRepaymentRate"])
+    return min_rate
 
+def get_minimum_credit_limit(s):  # cat poti sa imprumuti pe luna minim
+    #returns the minimum credit limit  for bank with the path s
+    #daca are in json dupa data [] trb scoase de la inceput si final
+    with open (s) as f:
+        ccc_data = json.load(f)
+    #consumer credit compilance
+    min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["MinCreditLimit"])
+    return min_credit
+
+def get_apr(s): #rata anuala folosita pt a se calc rata lunara 
+    #returns the anual percentage fee for bank with the path s
+    #daca are in json dupa data [] trb scoase de la inceput si final
+    with open (s) as f:
+        ccc_data = json.load(f)
+    #consumer credit compilance
+    min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["APR"])
+    return min_credit
 print(min(closest_distance_to_atm("api/ireland_atm.json"), closest_distance_to_atm("api/natwest_atm.json")))
+print(get_apr("api/ireland_ccc.json"))
