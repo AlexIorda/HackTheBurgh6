@@ -42,8 +42,12 @@ def get_minimum_credit_limit(s):  # cat poti sa imprumuti pe luna minim
     with open (s) as f:
         ccc_data = json.load(f)
     #consumer credit compilance
-    min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["MinCreditLimit"])
-    return min_credit
+    print(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"])
+    print("\n\n\n\n\n\n\n\n\n")
+    if ("MinCreditLimit" in ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]):
+        min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["MinCreditLimit"])
+        return min_credit
+    return -1;
 
 def get_apr(s): #rata anuala folosita pt a se calc rata lunara 
     #returns the anual percentage fee for bank with the path s
@@ -62,3 +66,14 @@ def print_benefits(s):#beneficii dubioase
         print(elem["Name"])
 print(min(closest_distance_to_atm("api/ireland_atm.json"), closest_distance_to_atm("api/natwest_atm.json")))
 print_benefits("api/natwest_pca.json")
+list_minimum_credit_limit = [get_minimum_credit_limit("api/ireland_ccc.json"), get_minimum_credit_limit("api/natwest_ccc.json")]
+#bot
+print("Hello! I am your new friend the CHAAAAT BOT!")
+print("I will help you choose the right bank for you!")
+print("But firrrrst....enter some information in order to help me")
+age = int(input("How old are you?"))
+income = float(input("What is your income/month?"))
+for val in list_minimum_credit_limit:
+    if (val > income/3):
+        list_minimum_credit_limit.remove(val)
+print(list_minimum_credit_limit)
