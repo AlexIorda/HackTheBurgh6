@@ -1,0 +1,2391 @@
+{
+  "meta" : {
+    "LastUpdated" : "2020-02-18T15:03:17.252Z",
+    "TotalResults" : 1,
+    "Agreement" : "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License" : "https://www.openbanking.org.uk/open-licence",
+    "TermsOfUse" : "https://www.openbanking.org.uk/terms"
+  },
+  "data" : [ {
+    "Brand" : [ {
+      "BrandName" : "NWB",
+      "ServicesMatterAvailability" : {
+        "ServicesMatterAvailabilityDetails" : [ {
+          "MatterType" : "CheckBalanceTransaction",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "SendingMoneyWithinUK",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "SendingMoneyOutsideUK",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "PayingInCheque",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "CancellingCheque",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "CashWithdrawalForexOutsideUK",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "DenialLackOfFunds",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "18:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "16:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "CollectPaymentViaCard",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "AccessViaPowerOfAttorney",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "ProblemUsingMobileInternetBanking",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "ReportFraudulentIncident",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "ProgressAccountCardSuspension",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "MatterType" : "HelpOpeningAccount",
+          "24HourHelp" : "Yes",
+          "OtherMatterType" : [ ],
+          "ContactDetails" : [ ],
+          "ServiceMatterAvailabilityMethod" : [ {
+            "MatterMethodType" : "Telephone",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "InternetBanking",
+            "24HourAvailable" : "Yes",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "MatterMethodType" : "MobileBanking",
+            "Note" : "A secure messaging service is available through the mobile banking app, Monday to Sunday, 24 hours a day.",
+            "OtherContactMethodType" : [ ],
+            "Day" : [ ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        } ]
+      },
+      "ServiceMatterContactDetails" : {
+        "MatterAvailabilityMethod" : [ {
+          "MatterMethodType" : "Telephone",
+          "ContactTypeDetails" : [ {
+            "ContactType" : "Phone",
+            "ContactContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)"
+          } ]
+        }, {
+          "MatterMethodType" : "InternetBanking",
+          "ContactTypeDetails" : [ {
+            "ContactType" : "WebChatApp",
+            "ContactContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html"
+          } ]
+        }, {
+          "MatterMethodType" : "MobileBanking",
+          "ContactTypeDetails" : [ {
+            "ContactType" : "MobileApp",
+            "ContactContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619"
+          } ]
+        } ]
+      },
+      "ServicesActionAvailability" : {
+        "ServicesActionAvailabilityDetails" : [ {
+          "ActionType" : "CheckingBalance",
+          "24HourAvailable" : "Yes",
+          "OtherActionType" : [ ],
+          "ExecutionChannelDetails" : [ {
+            "ExecutionChannelType" : "Phone",
+            "ChannelContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)",
+            "ChannelDescription" : "Telephone banking"
+          }, {
+            "ExecutionChannelType" : "WebChatApp",
+            "ChannelContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html",
+            "ChannelDescription" : "Internet banking"
+          }, {
+            "ExecutionChannelType" : "MobileApp",
+            "ChannelContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619",
+            "ChannelDescription" : "Mobile banking"
+          } ],
+          "ServiceActionAvailabilityMethod" : [ {
+            "ActionMethodType" : "TelephoneBanking",
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "InternetBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "MobileBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "ActionType" : "AccessingTransHistory",
+          "24HourAvailable" : "Yes",
+          "OtherActionType" : [ ],
+          "ExecutionChannelDetails" : [ {
+            "ExecutionChannelType" : "Phone",
+            "ChannelContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)",
+            "ChannelDescription" : "Telephone banking"
+          }, {
+            "ExecutionChannelType" : "WebChatApp",
+            "ChannelContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html",
+            "ChannelDescription" : "Internet banking"
+          }, {
+            "ExecutionChannelType" : "MobileApp",
+            "ChannelContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619",
+            "ChannelDescription" : "Mobile banking"
+          } ],
+          "ServiceActionAvailabilityMethod" : [ {
+            "ActionMethodType" : "TelephoneBanking",
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "InternetBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "MobileBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "ActionType" : "SendingMoneyWithinUK",
+          "24HourAvailable" : "Yes",
+          "OtherActionType" : [ ],
+          "ExecutionChannelDetails" : [ {
+            "ExecutionChannelType" : "Phone",
+            "ChannelContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)",
+            "ChannelDescription" : "Telephone banking"
+          }, {
+            "ExecutionChannelType" : "WebChatApp",
+            "ChannelContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html",
+            "ChannelDescription" : "Internet banking"
+          }, {
+            "ExecutionChannelType" : "MobileApp",
+            "ChannelContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619",
+            "ChannelDescription" : "Mobile banking"
+          } ],
+          "ServiceActionAvailabilityMethod" : [ {
+            "ActionMethodType" : "TelephoneBanking",
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "InternetBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "MobileBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "ActionType" : "SettingStandingOrder",
+          "24HourAvailable" : "Yes",
+          "OtherActionType" : [ ],
+          "ExecutionChannelDetails" : [ {
+            "ExecutionChannelType" : "Phone",
+            "ChannelContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)",
+            "ChannelDescription" : "Telephone banking"
+          }, {
+            "ExecutionChannelType" : "WebChatApp",
+            "ChannelContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html",
+            "ChannelDescription" : "Internet banking"
+          }, {
+            "ExecutionChannelType" : "MobileApp",
+            "ChannelContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619",
+            "ChannelDescription" : "Mobile banking"
+          } ],
+          "ServiceActionAvailabilityMethod" : [ {
+            "ActionMethodType" : "TelephoneBanking",
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "InternetBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "MobileBanking",
+            "Note" : "A standing order can be set up to an existing payee or a recognised company.",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "ActionType" : "SendingMoneyOutsideUK",
+          "24HourAvailable" : "Yes",
+          "OtherActionType" : [ ],
+          "ExecutionChannelDetails" : [ {
+            "ExecutionChannelType" : "Phone",
+            "ChannelContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)",
+            "ChannelDescription" : "Telephone banking"
+          }, {
+            "ExecutionChannelType" : "WebChatApp",
+            "ChannelContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html",
+            "ChannelDescription" : "Internet banking"
+          }, {
+            "ExecutionChannelType" : "MobileApp",
+            "ChannelContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619",
+            "ChannelDescription" : "Mobile banking"
+          } ],
+          "ServiceActionAvailabilityMethod" : [ {
+            "ActionMethodType" : "InternetBanking",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          }, {
+            "ActionMethodType" : "MobileBanking",
+            "Note" : "Customers can send money outside the UK to an existing payee.",
+            "Day" : [ {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "00:00",
+                "ClosingTime" : "23:59"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        }, {
+          "ActionType" : "CancellingCheque",
+          "24HourAvailable" : "No",
+          "OtherActionType" : [ ],
+          "ExecutionChannelDetails" : [ {
+            "ExecutionChannelType" : "Phone",
+            "ChannelContent" : "England & Wales: \n03457 888 444\n\nScotland:\n03459 000 200\n\nNext Generation Text Service: Dial 18001 and then 03457 888 444 (England & Wales) or 03459 000 200 (Scotland)",
+            "ChannelDescription" : "Telephone banking"
+          }, {
+            "ExecutionChannelType" : "WebChatApp",
+            "ChannelContent" : "https://personal.natwest.com/personal/ways-to-bank/online-banking.html",
+            "ChannelDescription" : "Internet banking"
+          }, {
+            "ExecutionChannelType" : "MobileApp",
+            "ChannelContent" : "https://applink.natwest.com/text-mobile-application/traffic/8112619",
+            "ChannelDescription" : "Mobile banking"
+          } ],
+          "ServiceActionAvailabilityMethod" : [ {
+            "ActionMethodType" : "TelephoneBanking",
+            "Day" : [ {
+              "Name" : "Thursday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Tuesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Wednesday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Saturday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Friday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Monday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            }, {
+              "Name" : "Sunday",
+              "AvailableHours" : [ {
+                "OpeningTime" : "08:00",
+                "ClosingTime" : "20:00"
+              } ]
+            } ],
+            "NonStandardAvailability" : [ ]
+          } ]
+        } ]
+      },
+      "OperationalSecurityIncidentMetrics" : {
+        "OperationalSecurityIncidentMetricsDetails" : [ {
+          "IncidentMetricsType" : "TotalNumberIncidentReported",
+          "Note" : "These numbers include incidents that impact other members of the Royal Bank of Scotland Group plc",
+          "IncidentDetails" : [ {
+            "IncidentReportingType" : "Quarterly",
+            "FromDate" : "2019-10-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 8
+          }, {
+            "IncidentReportingType" : "Yearly",
+            "FromDate" : "2019-01-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 13
+          } ]
+        }, {
+          "IncidentMetricsType" : "IncidentsAffectingTelBanking",
+          "Note" : "These numbers include incidents that impact other members of the Royal Bank of Scotland Group plc",
+          "IncidentDetails" : [ {
+            "IncidentReportingType" : "Quarterly",
+            "FromDate" : "2019-10-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 1
+          }, {
+            "IncidentReportingType" : "Yearly",
+            "FromDate" : "2019-01-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 2
+          } ]
+        }, {
+          "IncidentMetricsType" : "IncidentsAffectingMobBanking",
+          "Note" : "These numbers include incidents that impact other members of the Royal Bank of Scotland Group plc",
+          "IncidentDetails" : [ {
+            "IncidentReportingType" : "Quarterly",
+            "FromDate" : "2019-10-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 5
+          }, {
+            "IncidentReportingType" : "Yearly",
+            "FromDate" : "2019-01-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 9
+          } ]
+        }, {
+          "IncidentMetricsType" : "IncidentsAffectingInternetBanking",
+          "Note" : "These numbers include incidents that impact other members of the Royal Bank of Scotland Group plc",
+          "IncidentDetails" : [ {
+            "IncidentReportingType" : "Quarterly",
+            "FromDate" : "2019-10-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 5
+          }, {
+            "IncidentReportingType" : "Yearly",
+            "FromDate" : "2019-01-01",
+            "ToDate" : "2019-12-31",
+            "IncidentCount" : 10
+          } ]
+        } ]
+      },
+      "ComplaintsData" : {
+        "CompliantsDataDetails" : {
+          "CompliantsDataAvailable" : "Yes",
+          "CompliantsInfoURL" : "www.rbs.com/rbs/about/contact-us/feedback-and-complaints/complaints-data/national-westminster-bank-plc.html",
+          "OmbudsmanURL" : "www.ombudsman-complaints-data.org.uk/",
+          "Notes" : "Financial Conduct Authority rules require us to provide them with a report of our complaints data every six months. In certain circumstances, we are also required to publish a summary of our complaints data.\nThe most recent summary is available at https://www.rbs.com/rbs/about/contact-us/feedback-and-complaints/complaints-data/national-westminster-bank-plc.html.\nThe Financial Ombudsman Service publishes its complaints data every six months. You can see their complaints data about us at http://www.ombudsman-complaints-data.org.uk/."
+        }
+      },
+      "AccountOpeningTimeLineDetails" : {
+        "AccountOpeningURL" : "personal.natwest.com/personal/current-accounts/what-do-you-need-to-open-a-current-account.html",
+        "AccountOpeningDocumentationURL" : "personal.natwest.com/personal/current-accounts/what-do-you-need-to-open-a-current-account.html",
+        "Note" : "Go to personal.natwest.com/personal/current-accounts/what-do-you-need-to-open-a-current-account.html to find out how you can open an account, and what information and documents you need to give us to open an account.",
+        "AccountOpeningTimelineParameters" : [ {
+          "OpeningAccountTimelineType" : "OpenCurrentAccountsAvailability",
+          "Notes" : "These figures are based on the time taken from our receiving all the information and documents we ask for at personal.natwest.com/personal/current-accounts/what-do-you-need-to-open-a-current-account.html, in a case where we don’t need any further information or documents to open the account.",
+          "AccountOpeningTimelineMetrics" : [ {
+            "TimelineMetricsType" : "SameDay",
+            "MetricsValue" : 0
+          }, {
+            "TimelineMetricsType" : "OnAnAverage",
+            "MetricsValue" : 1
+          }, {
+            "TimelineMetricsType" : "WithinDays",
+            "MetricsValue" : 1
+          } ]
+        }, {
+          "OpeningAccountTimelineType" : "DebitCardAvailability",
+          "Notes" : "These figures are calculated from when the customer has an account number and can pay into the account to the point that the service is received.",
+          "AccountOpeningTimelineMetrics" : [ {
+            "TimelineMetricsType" : "SameDay",
+            "MetricsValue" : 0
+          }, {
+            "TimelineMetricsType" : "OnAnAverage",
+            "MetricsValue" : 3
+          }, {
+            "TimelineMetricsType" : "WithinDays",
+            "MetricsValue" : 5
+          } ]
+        }, {
+          "OpeningAccountTimelineType" : "InternetBankingAvailability",
+          "Notes" : "These figures are calculated from when the customer has an account number and can pay into the account to the point that the service is received. Internet Banking is when you can access all the services to enable you to set up payees and make payments which requires a card reader for additional payment security. When you first log-in to Internet Banking,  you can undertake some activities including viewing account balances, transferring money between your own accounts, initiate some payments to a list of preferred suppliers and download statements. Our 8 day average figure is based on our full Internet Banking service and is dependent on you holding a working account number and requesting a card reader on the same day that you have registered for Internet Banking.",
+          "AccountOpeningTimelineMetrics" : [ {
+            "TimelineMetricsType" : "SameDay",
+            "MetricsValue" : 0
+          }, {
+            "TimelineMetricsType" : "OnAnAverage",
+            "MetricsValue" : 8
+          }, {
+            "TimelineMetricsType" : "WithinDays",
+            "MetricsValue" : 8
+          } ]
+        }, {
+          "OpeningAccountTimelineType" : "OverdraftAvailability",
+          "Notes" : "These figures are calculated from when the customer has an account number and can pay into the account to the point that the service is received.",
+          "AccountOpeningTimelineMetrics" : [ {
+            "TimelineMetricsType" : "SameDay",
+            "MetricsValue" : 100
+          }, {
+            "TimelineMetricsType" : "OnAnAverage",
+            "MetricsValue" : 0
+          }, {
+            "TimelineMetricsType" : "WithinDays",
+            "MetricsValue" : 0
+          } ]
+        } ]
+      },
+      "CardReplacementTimeLine" : {
+        "CardReplacementTimeLineDetails" : [ {
+          "CardReplacementTimeline" : "DebitCardReplacement",
+          "CardReplacementTimelineMetrics" : [ {
+            "TimelineMetricsType" : "SameDay",
+            "MetricsValue" : 0
+          }, {
+            "TimelineMetricsType" : "OnAnAverage",
+            "MetricsValue" : 4
+          }, {
+            "TimelineMetricsType" : "WithinDays",
+            "MetricsValue" : 15
+          } ]
+        } ]
+      },
+      "AccountOpeningSummary" : {
+        "DocumentAndInfoURL" : "personal.natwest.com/personal/current-accounts/what-do-you-need-to-open-a-current-account.html",
+        "SummaryDescription" : "To open any of our accounts, a new customer will need to provide us with the documents and information set out at personal.natwest.com/personal/current-accounts/what-do-you-need-to-open-a-current-account.html. We may request additional information or documents in individual cases.",
+        "AccountOpeningSummaryDetails" : [ {
+          "AccountOpeningChannelType" : "OpenAccountWithoutVisit",
+          "ChannelUsage" : "Yes"
+        }, {
+          "AccountOpeningChannelType" : "VisitBranchWithoutAppointment",
+          "ChannelUsage" : "InSomeCases"
+        }, {
+          "AccountOpeningChannelType" : "SendingDocumentElectronically",
+          "ChannelUsage" : "Yes"
+        }, {
+          "AccountOpeningChannelType" : "OpenAccountByPost",
+          "ChannelUsage" : "No"
+        } ]
+      }
+    } ]
+  } ]
+}

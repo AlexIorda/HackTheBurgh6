@@ -1,4 +1,4 @@
 import json
-with open ('opendata-api-spec-compiled-master/atm.json') as f:
+with open ('api/ireland_atm.json') as f:
     atm_data = json.load(f)
-print(atm_data["title"])
+print(atm_data["meta"])

@@ -1,0 +1,3188 @@
+{
+  "meta": {
+    "LastUpdated": "2020-02-17T06:50:02.08Z",
+    "TotalResults": 1,
+    "Agreement": "Use of the APIs and any related data will be subject to the terms of the Open Licence and subject to terms and conditions",
+    "License": "https://openbanking.org.uk/open-licence",
+    "TermsOfUse": "https://openbanking.org.uk/terms"
+  },
+  "data": {
+    "Brand": [
+      {
+        "BrandName": "Bank of Ireland (UK) Plc",
+        "Notes": "Bank of Ireland in the UK",
+        "ServicesMatterAvailability": {
+          "ServicesMatterAvailabilityDetails": [
+            {
+              "MatterType": "CheckBalanceTransaction",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CheckBalanceTransaction",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CheckBalanceTransaction",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CheckBalanceTransaction",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyWithinUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyWithinUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyWithinUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyWithinUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SettingStandingOrder",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "SettingStandingOrder",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "SettingStandingOrder",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SettingStandingOrder",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "SendingMoneyOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "PayingInCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "PayingInCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "PayingInCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "PayingInCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CancellingCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CancellingCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CancellingCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CashWithdrawalForexOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CashWithdrawalForexOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CancellingCheque",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CashWithdrawalForexOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CashWithdrawalForexOutsideUK",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "DenialLackOfFunds",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "DenialLackOfFunds",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "DenialLackOfFunds",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "DenialLackOfFunds",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CollectPaymentViaCard",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CollectPaymentViaCard",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "CollectPaymentViaCard",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "CollectPaymentViaCard",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "AccessViaPowerOfAttorney",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "AccessViaPowerOfAttorney",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "AccessViaPowerOfAttorney",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "AccessViaPowerOfAttorney",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "ProblemUsingMobileInternetBanking",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "ProblemUsingMobileInternetBanking",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "ProblemUsingMobileInternetBanking",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "ReportFraudulentIncident",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Tel 0800 121 7790 or from abroad +44 345 161 0020",
+                  "ContactDescription": "24 hour phone cover"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "ProblemUsingMobileInternetBanking",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "ReportFraudulentIncident",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available",
+                  "ContactDescription": "Service not applicable 24 hour phone cover"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "ReportFraudulentIncident",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available",
+                  "ContactDescription": "Service not applicable 24 hour phone cover"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "ProgressAccountCardSuspension",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "ProgressAccountCardSuspension",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "ProgressAccountCardSuspension",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "HelpOpeningAccount",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "ProgressAccountCardSuspension",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "HelpOpeningAccount",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "HelpOpeningAccount",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "For a  PCA application tel: 0800 0850444",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:30",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:30",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:30",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:30",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:30",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank & Public Holiday",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "MatterType": "HelpOpeningAccount",
+              "ContactDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "HelpOpeningAccount",
+              "ContactDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Service not available"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "MatterType": "HelpOpeningAccount",
+              "ContactDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "For a  PCA application tel: 0800 0850444",
+                  "ContactDescription": "Closed Sunday , Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceMatterAvailabilityMethod": [
+                {
+                  "MatterMethodType": "Telephone",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "14:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "ServiceMatterContactDetails": {
+          "MatterAvailabilityMethod": [
+            {
+              "MatterMethodType": "Telephone",
+              "ContactTypeDetails": [
+                {
+                  "ContactType": "Phone",
+                  "ContactContent": "General  enquiries tel +44 (0)345 736 5555 For a PCA telephone application tel +44 (0)800 085 0444 Reporting A Fraud  from the UK tel +44 (0)800 1217 790  Reporting A Fraud from abroad tel +44 (0)345 161  0020"
+                }
+              ]
+            },
+            {
+              "MatterMethodType": "InternetBanking",
+              "ContactTypeDetails": [
+                {
+                  "ContactType": "Other",
+                  "ContactContent": "Bank website https://www.bankofirelanduk.com/personal/"
+                }
+              ]
+            },
+            {
+              "MatterMethodType": "MobileBanking",
+              "ContactTypeDetails": [
+                {
+                  "ContactType": "MobileApp",
+                  "ContactContent": "B365 app"
+                }
+              ]
+            }
+          ]
+        },
+        "ServicesActionAvailability": {
+          "ServicesActionAvailabilityDetails": [
+            {
+              "ActionType": "CheckingBalance",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ChannelDescription": "Closed Sunday, Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank/Public Holidays",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "CheckingBalance",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "B365 mobile access",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "CheckingBalance",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Use this link to log into B365 Online: www.365online.com",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "CheckingBalance",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ChannelDescription": "Closed Sunday, Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "AccessingTransHistory",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ChannelDescription": "Closed Sunday, Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank/Public Holidays",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "AccessingTransHistory",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Use this link to log into B365 Online: www.365online.com",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "AccessingTransHistory",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ChannelDescription": "Closed Sunday, Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "AccessingTransHistory",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "B365 mobile access",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "SendingMoneyWithinUK",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Use this link to log into B365 Online: www.365online.com",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "SendingMoneyWithinUK",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "B365 mobile access",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "SendingMoneyWithinUK",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "SettingStandingOrder",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "SettingStandingOrder",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Use this link to log into B365 Online: www.365online.com",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "SettingStandingOrder",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "SendingMoneyOutsideUK",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "SendingMoneyOutsideUK",
+              "24HourAvailable": "Yes",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Use this link to log into B365 Online: www.365online.com",
+                  "ChannelDescription": "Available 24 hours"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Sunday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "00:00",
+                          "ClosingTime": "00:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "SendingMoneyOutsideUK",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "PayingInCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "PayingInCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "PayingInCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "CancellingCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ChannelDescription": "Closed Sunday, Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking",
+                  "Day": [
+                    {
+                      "Name": "Monday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Tuesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Wednesday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Thursday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    },
+                    {
+                      "Name": "Friday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "08:00",
+                          "ClosingTime": "20:00"
+                        }
+                      ]
+                    }
+                  ],
+                  "NonStandardAvailability": [
+                    {
+                      "Name": "Bank/Public Holidays",
+                      "Notes": "Open 10:00 to 17:00"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "CancellingCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Phone",
+                  "ChannelContent": "Gen Enq Tel: 0044-3457 365555",
+                  "ChannelDescription": "Closed Sunday, Christmas Day and Boxing Day"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "TelephoneBanking",
+                  "Day": [
+                    {
+                      "Name": "Saturday",
+                      "AvailableHours": [
+                        {
+                          "OpeningTime": "09:00",
+                          "ClosingTime": "17:00"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "ActionType": "CancellingCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "Other",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "InternetBanking"
+                }
+              ]
+            },
+            {
+              "ActionType": "CancellingCheque",
+              "24HourAvailable": "No",
+              "ExecutionChannelDetails": [
+                {
+                  "ExecutionChannelType": "MobileApp",
+                  "ChannelContent": "Service not available"
+                }
+              ],
+              "ServiceActionAvailabilityMethod": [
+                {
+                  "ActionMethodType": "MobileBanking"
+                }
+              ]
+            }
+          ]
+        },
+        "OperationalSecurityIncidentMetrics": {
+          "OperationalSecurityIncidentMetricsDetails": [
+            {
+              "IncidentMetricsType": "IncidentsAffectingInternetBanking",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Quarterly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 1
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "IncidentsAffectingMobBanking",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Quarterly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 0
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "IncidentsAffectingTelBanking",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Quarterly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 0
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "TotalNumberIncidentReported",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Quarterly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 4
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "IncidentsAffectingInternetBanking",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Yearly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 1
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "IncidentsAffectingMobBanking",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Yearly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 0
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "IncidentsAffectingTelBanking",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Yearly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 0
+                }
+              ]
+            },
+            {
+              "IncidentMetricsType": "TotalNumberIncidentReported",
+              "IncidentDetails": [
+                {
+                  "IncidentReportingType": "Yearly",
+                  "FromDate": "01/10/2019",
+                  "ToDate": "31/12/2019",
+                  "IncidentCount": 9
+                }
+              ]
+            }
+          ]
+        },
+        "ComplaintsData": {
+          "CompliantsDataDetails": {
+            "CompliantsDataAvailable": "Yes",
+            "CompliantsInfoURL": "Financial Conduct Authority rules require us to provide them with a report of our complaints data every six months. In certain cirmcumstances we are also required to publish a summary of our complaints data. The most recent summary is avaialble at https://www.bankofireland.com/about-bank-of-ireland/about-the-group/customer-commitment/complaint-management-at-bank-of-ireland/",
+            "OmbudsmanURL": "The Financial Ombudsman Service publishes its complaints data every six months. You can see their complaints data about us at www.ombudsman-complaints-data.org.uk/"
+          }
+        },
+        "AccountOpeningTimeLineDetails": {
+          "AccountOpeningURL": "URL of the bank which details the requirement to open a current account",
+          "AccountOpeningDocumentationURL": "URL of the bank which details the documentation requirement to open a current account",
+          "AccountOpeningTimelineParameters": [
+            {
+              "OpeningAccountTimelineType": "OpenCurrentAccountsAvailability",
+              "Notes": "How quickly do we open [personal/business] current accounts?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "SameDay",
+                  "MetricsValue": 87
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "OpenCurrentAccountsAvailability",
+              "Notes": "How quickly do we open [personal/business] current accounts?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "OnAnAverage",
+                  "MetricsValue": 0
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "OpenCurrentAccountsAvailability",
+              "Notes": "How quickly do we open [personal/business] current accounts?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "WithinDays",
+                  "MetricsValue": 5
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "DebitCardAvailability",
+              "Notes": "How quickly do we give customers a debit card?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "SameDay",
+                  "MetricsValue": 0
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "DebitCardAvailability",
+              "Notes": "How quickly do we give customers a debit card?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "OnAnAverage",
+                  "MetricsValue": 10
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "DebitCardAvailability",
+              "Notes": "How quickly do we give customers a debit card?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "WithinDays",
+                  "MetricsValue": 38
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "InternetBankingAvailability",
+              "Notes": "How quickly do customers get internet banking?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "SameDay",
+                  "MetricsValue": 0
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "InternetBankingAvailability",
+              "Notes": "How quickly do customers get internet banking?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "OnAnAverage",
+                  "MetricsValue": 6
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "InternetBankingAvailability",
+              "Notes": "How quickly do customers get internet banking?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "WithinDays",
+                  "MetricsValue": 8
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "OverdraftAvailability",
+              "Notes": "How quickly is an overdraft available?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "SameDay",
+                  "MetricsValue": 0
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "OverdraftAvailability",
+              "Notes": "How quickly is an overdraft available?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "OnAnAverage",
+                  "MetricsValue": 4
+                }
+              ]
+            },
+            {
+              "OpeningAccountTimelineType": "OverdraftAvailability",
+              "Notes": "How quickly is an overdraft available?",
+              "AccountOpeningTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "WithinDays",
+                  "MetricsValue": 6
+                }
+              ]
+            }
+          ]
+        },
+        "CardReplacementTimeLine": {
+          "CardReplacementTimeLineDetails": [
+            {
+              "CardReplacementTimeline": "DebitCardReplacement",
+              "CardReplacementTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "SameDay",
+                  "MetricsValue": 0
+                }
+              ]
+            },
+            {
+              "CardReplacementTimeline": "DebitCardReplacement",
+              "CardReplacementTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "OnAnAverage",
+                  "MetricsValue": 10
+                }
+              ]
+            },
+            {
+              "CardReplacementTimeline": "DebitCardReplacement",
+              "CardReplacementTimelineMetrics": [
+                {
+                  "TimelineMetricsType": "WithinDays",
+                  "MetricsValue": 77
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
