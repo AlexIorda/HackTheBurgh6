@@ -6,7 +6,7 @@
     "License" : "https://www.openbanking.org.uk/open-licence",
     "TermsOfUse" : "https://www.openbanking.org.uk/terms"
   },
-  "data" : [ {
+  "data" :  {
     "Brand" : [ {
       "BrandName" : "NatWest",
       "ATM" : [ {
@@ -25439,5 +25439,5 @@
         }
       } ]
     } ]
-  } ]
+  } 
 }
