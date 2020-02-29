@@ -53,5 +53,12 @@ def get_apr(s): #rata anuala folosita pt a se calc rata lunara
     #consumer credit compilance
     min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["APR"])
     return min_credit
+def print_benefits(s):#beneficii dubioase
+    #prints the benefits of a bank with the path s
+    #daca are in json dupa data [] trb scoase de la inc si final
+    with open (s) as f:
+        pca_data = json.load(f)
+    for elem in pca_data["data"]["Brand"][0]["PCA"][0]["PCAMarketingState"][0]["FeaturesAndBenefits"]["FeatureBenefitItem"]:
+        print(elem["Name"])
 print(min(closest_distance_to_atm("api/ireland_atm.json"), closest_distance_to_atm("api/natwest_atm.json")))
-print(get_apr("api/ireland_ccc.json"))
+print_benefits("api/natwest_pca.json")
