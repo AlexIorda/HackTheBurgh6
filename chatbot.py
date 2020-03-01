@@ -34,7 +34,7 @@ def get_minimum_credit_limit(s):  # cat poti sa imprumuti pe luna minim
         return min_credit
     return -1;
 
-def get_apr(s): #rata anuala folosita pt a se calc rata lunara 
+def get_apr(s): #rata anuala folosita pt a se calc rata lunara
     #returns the anual percentage fee for bank with the path s
     #daca are in json dupa data [] trb scoase de la inceput si final
     with open (s) as f:
@@ -49,15 +49,15 @@ def print_benefits(s):#beneficii dubioase
         pca_data = json.load(f)
     for elem in pca_data["data"]["Brand"][0]["PCA"][0]["PCAMarketingState"][0]["FeaturesAndBenefits"]["FeatureBenefitItem"]:
         print(elem["Name"])
-   
+
 data_dict_Q1 = {}
 data_dict_Q2 = {}
 data_dict_Q3 = {}
-data_dict_Q4 = {}     
- 
-    
+data_dict_Q4 = {}
+
+
 def make_dict_points():
-    global data_dict_Q1, data_dict_Q2, data_dict_Q3, data_dict_Q4 
+    global data_dict_Q1, data_dict_Q2, data_dict_Q3, data_dict_Q4
     with open ("api/sondaj_varste.json") as f:
         data = json.load(f)
     answers1 = {"Extremely likely" : 6, "Very likely": 5, "Fairly likely": 4, "Unlikely": 3,
@@ -88,7 +88,7 @@ def make_dict_points():
                        "The Co-operative Bank": {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                        "TSB": {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                        "Yorkshire Bank":  {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0}
-                    
+
                     }
     data_dict_Q2 = { "Bank of Scotland" : {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                       "Royal Bank of Scotland" : {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
@@ -125,7 +125,7 @@ def make_dict_points():
                        "The Co-operative Bank": {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                        "TSB": {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                        "Yorkshire Bank":  {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0}
-                    
+
                     }
     data_dict_Q4 = { "Bank of Scotland" : {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                       "Royal Bank of Scotland" : {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
@@ -152,7 +152,7 @@ def make_dict_points():
                 data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]]
                 if "PCAQ2All" in sample:
                     data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]]
-                    if "PCAQ3All" in sample: 
+                    if "PCAQ3All" in sample:
                         data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]]
                         if "PCAQ4All" in sample:
                             data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]]
@@ -190,46 +190,16 @@ def closest_distance_to_atm(s):
     MN = 10**101
     for bank in s:
         with open (bank) as f:
-            atm_data = json.load(f)    
+            atm_data = json.load(f)
         mn = 10**100
         for atm in atm_data["data"]["Brand"][0]["ATM"]:
             lat_atm = float(atm["Location"]["PostalAddress"]["GeoLocation"]["GeographicCoordinates"]["Latitude"])
             long_atm = float(atm["Location"]["PostalAddress"]["GeoLocation"]["GeographicCoordinates"]["Longitude"])
             #print(lat_atm,long_atm)
-            dist = math.sqrt( (lat_atm - current_lat) ** 2 + (long_atm - current_long) ** 2)    
+            dist = math.sqrt( (lat_atm - current_lat) ** 2 + (long_atm - current_long) ** 2)
             #print(dist)
             if (dist < mn):
                 mn = dist
         if mn < MN:
             MN = mn
     return MN
-#print(min(closest_distance_to_atm("api/ireland_atm.json"), closest_distance_to_atm("api/natwest_atm.json")))
-#print_benefits("api/natwest_pca.json")
-list_minimum_credit_limit = [get_minimum_credit_limit("api/ireland_ccc.json"), get_minimum_credit_limit("api/natwest_ccc.json")]
-#bot
-make_dict_points()
-print("Hello! I am your new friend the CHAAAAT BOT!")
-print("I will help you choose the right bank for you!")
-print("But firrrrst....enter some information in order to help me")
-age = int(input("How old are you?"))
-income = float(input("What is your income/month?"))
-print("Now I'm gonna get the perfect bank for youuuuuuuuu")
-print("I want to get to know you better. What do you prefer:")
-print("[1] The perfect bank in general")
-print("[2] The best branch services")
-print("[3] The best mobile banking services")
-print("[4] The best overdraft services")
-choice = int(input("Enter choice please:"))
-if (choice == 1):
-    print(best_bank(data_dict_Q1, age))
-elif (choice == 2):
-    print(best_bank(data_dict_Q2, age))
-elif (choice == 3):
-    print(best_bank(data_dict_Q3, age))
-elif (choice == 4):
-    print(best_bank(data_dict_Q4, age))
-print(closest_distance_to_atm(path_list))
-for val in list_minimum_credit_limit:
-    if (val > income/3):
-        list_minimum_credit_limit.remove(val)
-#print(list_minimum_credit_limit)

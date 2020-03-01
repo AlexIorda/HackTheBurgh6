@@ -26,6 +26,7 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
         super(self.__class__, self).__init__()
         self.setupUi(self)
         self.sendBtn.clicked.connect(self.getMessage)
+        self.resetBtn.clicked.connect(self.resetChat)
         self.answers = []
         self.textBrowser.append("Hello! I am your new friend the CHAAAAT BOT!")
         self.textBrowser.append("I will help you choose the right bank for you!")
@@ -47,6 +48,7 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
         if (cnt == 3):
             list_minimum_credit_limit = [get_minimum_credit_limit("api/ireland_ccc.json"), get_minimum_credit_limit("api/natwest_ccc.json")]
             make_dict_points()
+            ans = ''
             if (self.answers[2] == '1'):
                 ans = best_bank(data_dict_Q1, int(self.answers[0]))
             elif (self.answers[2] == '2'):
@@ -55,6 +57,8 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
                 ans = best_bank(data_dict_Q3, int(self.answers[0]))
             elif (self.answers[2] == '4'):
                 ans = best_bank(data_dict_Q4, int(self.answers[0]))
+            else:
+                ans = "You did something wrong..."
             for val in list_minimum_credit_limit:
                 if (val > income / 3):
                     list_minimum_credit_limit.remove(val)
@@ -64,6 +68,17 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
 
     def add_msg(self, added_msg):
         self.textBrowser.append(added_msg)
+
+    def resetChat(self):
+        global cnt
+        cnt = 0
+        del self.answers[:]
+        time.sleep(1.857)
+        self.textBrowser.clear()
+        self.textBrowser.append("Hello! I am your new friend the CHAAAAT BOT!")
+        self.textBrowser.append("I will help you choose the right bank for you!")
+        self.textBrowser.append("But firrrrst....enter some information in order to help me")
+        self.textBrowser.append("How old are you?")
 
 
 if __name__ == "__main__":

@@ -6,21 +6,30 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1249</width>
+    <width>1177</width>
     <height>508</height>
    </rect>
   </property>
+  <property name="font">
+   <font>
+    <family>Ubuntu</family>
+   </font>
+  </property>
   <property name="windowTitle">
    <string>ChatBot</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#70b2ff;
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QScrollArea" name="scrollArea">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>10</y>
-      <width>831</width>
-      <height>381</height>
+      <x>440</x>
+      <y>40</y>
+      <width>691</width>
+      <height>351</height>
      </rect>
     </property>
     <property name="widgetResizable">
@@ -31,8 +40,8 @@
       <rect>
        <x>0</x>
        <y>0</y>
-       <width>829</width>
-       <height>379</height>
+       <width>689</width>
+       <height>349</height>
       </rect>
      </property>
      <widget class="QTextBrowser" name="textBrowser">
@@ -40,9 +49,22 @@
        <rect>
         <x>0</x>
         <y>0</y>
-        <width>831</width>
-        <height>381</height>
+        <width>691</width>
+        <height>351</height>
        </rect>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color:#ffffff;
+border-radius:21;</string>
+      </property>
+      <property name="lineWidth">
+       <number>1</number>
+      </property>
+      <property name="lineWrapMode">
+       <enum>QTextEdit::NoWrap</enum>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -54,14 +76,50 @@ p, li { white-space: pre-wrap; }
      </widget>
     </widget>
    </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>420</y>
+      <width>581</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ffffff;
+border-radius:7</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="sendBtn">
+    <property name="geometry">
+     <rect>
+      <x>1046</x>
+      <y>420</y>
+      <width>81</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ffffff;
+border-radius:10;</string>
+    </property>
+    <property name="text">
+     <string>Send</string>
+    </property>
+   </widget>
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>0</y>
-      <width>371</width>
-      <height>451</height>
+      <width>411</width>
+      <height>491</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgba(9, 40, 76, 140);
+margin:0;
+padding:0;</string>
     </property>
     <property name="frameShape">
      <enum>QFrame::StyledPanel</enum>
@@ -69,86 +127,24 @@ p, li { white-space: pre-wrap; }
     <property name="frameShadow">
      <enum>QFrame::Raised</enum>
     </property>
-    <widget class="QLabel" name="label">
-     <property name="geometry">
-      <rect>
-       <x>50</x>
-       <y>20</y>
-       <width>261</width>
-       <height>411</height>
-      </rect>
-     </property>
-     <property name="sizePolicy">
-      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-       <horstretch>0</horstretch>
-       <verstretch>0</verstretch>
-      </sizepolicy>
-     </property>
-     <property name="font">
-      <font>
-       <family>Latin Modern Sans</family>
-       <pointsize>14</pointsize>
-       <italic>false</italic>
-      </font>
-     </property>
-     <property name="text">
-      <string>Available Banks:
-
-Bank of Ireland
-Bank of Scotland
-Barclays Bank
-Danske Bank
-First Trust Bank
-Halifax
-HSBC Bank
-Lloyds Bank
-Nationwide Building Society
-NatWest
-Royal Bank of Scotland
-Santander
-Ulster Bank</string>
-     </property>
-    </widget>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QPushButton" name="resetBtn">
     <property name="geometry">
      <rect>
-      <x>410</x>
-      <y>410</y>
-      <width>711</width>
+      <x>1046</x>
+      <y>460</y>
+      <width>81</width>
       <height>27</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QPushButton" name="sendBtn">
-    <property name="geometry">
-     <rect>
-      <x>1140</x>
-      <y>410</y>
-      <width>97</width>
-      <height>27</height>
-     </rect>
+    <property name="styleSheet">
+     <string notr="true">background-color:#ffffff;
+border-radius:10;</string>
     </property>
     <property name="text">
-     <string>Send</string>
+     <string>Reset</string>
     </property>
    </widget>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>1249</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuChatBot">
-    <property name="title">
-     <string>ChatBot</string>
-    </property>
-   </widget>
-   <addaction name="menuChatBot"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
