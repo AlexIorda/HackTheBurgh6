@@ -27,25 +27,28 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
         self.setupUi(self)
         self.sendBtn.clicked.connect(self.getMessage)
         self.resetBtn.clicked.connect(self.resetChat)
+        self.banksBtn.clicked.connect(lambda:QtGui.QMessageBox.information(self, "Banks", "Available Banks:\n\nBank of Ireland\nBank of Scotland\nBarclays Bank\nDanske Bank\nFirst Trust Bank\nHalifax\nHSBC Bank\nLloyds Bank\nNationwide Building Society\nNatWest\nRoyal Bank of Scotland\nSantander\nUlster Bank"))
+        self.aboutBtn.clicked.connect(lambda:QtGui.QMessageBox.information(self, "About", "This piece of software would have not been possible without the wonderful environment provided by the Hack The Burgh team"))
         self.answers = []
-        self.textBrowser.append("Hello! I am your new friend the CHAAAAT BOT!")
-        self.textBrowser.append("I will help you choose the right bank for you!")
-        self.textBrowser.append("But firrrrst....enter some information in order to help me")
-        self.textBrowser.append("How old are you?")
+        self.textBrowser.append("BOT: Hello! I am your new friend the CHAAAAT BOT!")
+        self.textBrowser.append("BOT: I will help you choose the right bank for you!")
+        self.textBrowser.append("BOT: But firrrrst....enter some information in order to help me")
+        self.textBrowser.append("BOT: How old are you?")
 
     def getMessage(self):
         global cnt
         botMsgArr = [
-            "What is your income/month?",
-            "Are you interested in applying for a credit?",
-            "Now I'm gonna get the perfect bank for youuuuuuuuu\nI want to get to know you better. What do you prefer:\n[1] The perfect bank in general\n[2] The best branch services\n[3] The best mobile banking services\n[4] The best overdraft services\nEnter choice please:"
+            "BOT: What is your income per month?",
+            "BOT: Are you interested in applying for a credit?",
+            "BOT: Now I'm gonna get the perfect bank for youuuuuuuuu\nI want to get to know you better. What do you prefer:\n[1] The perfect bank in general\n[2] The best branch services\n[3] The best mobile banking services\n[4] The best overdraft services\nEnter choice please:"
         ]
 
-        self.textBrowser.append(self.lineEdit.text())
+        self.textBrowser.append("ME: " + self.lineEdit.text())
         self.answers.append(self.lineEdit.text())
         if cnt <= 2:
             self.get_thread = getMessageThread(botMsgArr[cnt])
         cnt += 1
+        self.lineEdit.clear()
         if (cnt == 4):
             global data_dict_Q1, data_dict_Q2, data_dict_Q3, data_dict_Q4
             with open ("api/sondaj_varste.json") as f:
@@ -140,7 +143,6 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
             bank_to_ind = {"Santander" : 2, "HSBC UK" : 1.8, "Royal Bank of Scotland": 1.7, "Bank of Scotland" : 1.6, "Barclays": 1.5, "Halifax": 1.4, "NatWest": 1.3, "Lloyds Bank": 1.2 }
             for sample1 in data["Data"]["Brand"]:
                 for sample in sample1["Data"]:
-                    print(sample)
                     if (sample["Brand"] in dist_dict):
                         ind = bank_to_ind[sample["Brand"]]
                     # print(sample)
@@ -164,7 +166,7 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
                 ans = best_bank(data_dict_Q4, int(self.answers[0]), float(self.answers[1]), want_credit=(self.answers[2][0] == 'y' or self.answers[2][0] == 'Y'))
             else:
                 ans = "You did something wrong..."
-            QtGui.QMessageBox.information(self, "Your bank is...", ans)
+            QtGui.QMessageBox.information(self, "Your bank is...", "The bank that we are recommending you is " + ans)
             return
         self.connect(self.get_thread, SIGNAL("add_msg(QString)"), self.add_msg)
         self.get_thread.start()
