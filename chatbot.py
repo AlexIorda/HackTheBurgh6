@@ -152,6 +152,7 @@ def make_dict_points():
             print(sample)
             if (sample["Brand"] in dist_dict):
                 ind = bank_to_ind[sample["Brand"]]
+            # print(sample)
             if "PCAQ1All" in sample:
                 data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]] * ind
             if "PCAQ2All" in sample:
@@ -161,6 +162,7 @@ def make_dict_points():
             if "PCAQ4All" in sample:
                 data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]] * ind
     print(data_dict_Q1["Bank of Scotland"]["25-34"])
+
 def best_bank(dictionary, age, income, want_credit = False):
     banks = ["Bank of Scotland", "Royal Bank of Scotland", "Barclays", "Halifax", "HSBC UK",  "Lloyds Bank", "NatWest", "Royal Bank of Scotland",
              "Santander", "Clydesdale Bank", "first direct", "Metro Bank", "Nationwide", "Tesco Bank", "The Co-operative Bank", "TSB", "Yorkshire Bank"]
@@ -184,6 +186,7 @@ def best_bank(dictionary, age, income, want_credit = False):
                 mx = dictionary[bank][age_segment(age)]
                 mxbank = bank
     return mxbank
+
 def age_segment(age):
     if (age <= 24):
         return "16-24"
