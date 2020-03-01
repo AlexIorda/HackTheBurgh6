@@ -144,17 +144,22 @@ def make_dict_points():
                        "TSB": {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                        "Yorkshire Bank":  {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0}
                     }
+    dist_dict = closest_distance_to_atm()
+    ind = 1
+    bank_to_ind = {"Santander" : 2, "HSBC UK" : 1.8, "Royal Bank of Scotland": 1.7, "Bank of Scotland" : 1.6, "Barclays": 1.5, "Halifax": 1.4, "NatWest": 1.3, "Lloyds Bank": 1.2 }
     for sample1 in data["Data"]["Brand"]:
         for sample in sample1["Data"]:
             print(sample)
+            if (sample["Brand"] in dist_dict):
+                ind = bank_to_ind[sample["Brand"]]
             if "PCAQ1All" in sample:
-                data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]]
+                data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]] * ind
             if "PCAQ2All" in sample:
-                data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]]
+                data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]] * ind
             if "PCAQ3All" in sample:
-                data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]]
+                data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]] * ind
             if "PCAQ4All" in sample:
-                data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]]
+                data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]] * ind
     print(data_dict_Q1["Bank of Scotland"]["25-34"])
 def best_bank(dictionary, age, income, want_credit = False):
     banks = ["Bank of Scotland", "Royal Bank of Scotland", "Barclays", "Halifax", "HSBC UK",  "Lloyds Bank", "NatWest", "Royal Bank of Scotland",
@@ -193,13 +198,19 @@ def age_segment(age):
     else:
         return "65+"
 
-path_list = ["api/atm/barclays_atm.json", "api/atm/firsttrustbank_atm.json", "api/atm/ireland_atm.json",
+
+def closest_distance_to_atm():
+    path_list = ["api/atm/barclays_atm.json", "api/atm/firsttrustbank_atm.json", "api/atm/ireland_atm.json",
              "api/atm/natwest_atm.json", "api/atm/scotland_atm.json", "api/atm/ulster_atm.json", "api/atm/lloyds_atm.json",
              "api/atm/royal_scotland_atm.json", "api/atm/danske_atm.json", "api/atm/first_trust_atm.json", "api/atm/halifax_atm.json",
              "api/atm/hsbc_atm.json", "api/atm/nbs_atm.json", "api/atm/santander_atm.json"]
-def closest_distance_to_atm(s):
+    dict_atm_to_bank = { "api/atm/barclays_atm.json" : "Barclays", "api/atm/natwest_atm.json" : "NatWest", "api/atm/scotland_atm.json" :  "Bank of Scotland", 
+                         "api/atm/lloyds_atm.json" : "Lloyds Bank", "api/atm/royal_scotland_atm.json" : "Royal Bank of Scotland", "api/atm/halifax_atm.json" : "Halifax",
+                         "api/atm/hsbc_atm.json" : "HSBC UK", "api/atm/santander_atm.json" : "Santander"
+                        }
+    dict_bank_to_dist = {}
     MN = 10**101
-    for bank in s:
+    for bank in path_list:
         with open (bank) as f:
             atm_data = json.load(f)
         mn = 10**100
@@ -211,9 +222,11 @@ def closest_distance_to_atm(s):
             #print(dist)
             if (dist < mn):
                 mn = dist
+        if (bank in dict_atm_to_bank):
+            dict_bank_to_dist[dict_atm_to_bank[bank]] = mn
         if mn < MN:
             MN = mn
-    return MN
+    return dict_bank_to_dist
 
 def generate_credit_dictionary():
     credit_dict = {}
@@ -224,8 +237,10 @@ def generate_credit_dictionary():
     for s in path_list_ccc:
         credit_dict[api_to_bank[s]] = get_minimum_credit_limit(s)
     return credit_dict
-print(get_minimum_credit_limit("api/ccc/ireland_ccc.json"))
-print(get_minimum_credit_limit("api/ccc/natwest_ccc.json"))
+#print(get_minimum_credit_limit("api/ccc/ireland_ccc.json"))
+#print(get_minimum_credit_limit("api/ccc/natwest_ccc.json"))
 make_dict_points()
-print(generate_credit_dictionary())
-print(best_bank(data_dict_Q1, 68, 800, True))
+#print(generate_credit_dictionary())
+#print(best_bank(data_dict_Q1, 68, 800, True))
+print(closest_distance_to_atm())
+print(best_bank(data_dict_Q1, 100, 800, True))
