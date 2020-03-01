@@ -37,17 +37,16 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
         global cnt
         botMsgArr = [
             "What is your income/month?",
+            "Are you interested in applying for a credit?",
             "Now I'm gonna get the perfect bank for youuuuuuuuu\nI want to get to know you better. What do you prefer:\n[1] The perfect bank in general\n[2] The best branch services\n[3] The best mobile banking services\n[4] The best overdraft services\nEnter choice please:"
         ]
 
         self.textBrowser.append(self.lineEdit.text())
         self.answers.append(self.lineEdit.text())
-        if cnt <= 1:
+        if cnt <= 2:
             self.get_thread = getMessageThread(botMsgArr[cnt])
         cnt += 1
-        if (cnt == 3):
-            list_minimum_credit_limit = [get_minimum_credit_limit("api/ireland_ccc.json"), get_minimum_credit_limit("api/natwest_ccc.json")]
-
+        if (cnt == 4):
             global data_dict_Q1, data_dict_Q2, data_dict_Q3, data_dict_Q4
             with open ("api/sondaj_varste.json") as f:
                 data = json.load(f)
@@ -136,30 +135,37 @@ class Threading(QtGui.QMainWindow, chatbot2.Ui_MainWindow):
                                "TSB": {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0},
                                "Yorkshire Bank":  {"16-24" : 0, "25-34" : 0, "35-44": 0, "45-54": 0, "55-64": 0, "65+": 0}
                             }
+            dist_dict = closest_distance_to_atm()
+            ind = 1
+            bank_to_ind = {"Santander" : 2, "HSBC UK" : 1.8, "Royal Bank of Scotland": 1.7, "Bank of Scotland" : 1.6, "Barclays": 1.5, "Halifax": 1.4, "NatWest": 1.3, "Lloyds Bank": 1.2 }
             for sample1 in data["Data"]["Brand"]:
                 for sample in sample1["Data"]:
+                    print(sample)
+                    if (sample["Brand"] in dist_dict):
+                        ind = bank_to_ind[sample["Brand"]]
                     # print(sample)
                     if "PCAQ1All" in sample:
-                        data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]]
+                        data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]] * ind
                     if "PCAQ2All" in sample:
-                        data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]]
+                        data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]] * ind
                     if "PCAQ3All" in sample:
-                        data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]]
+                        data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]] * ind
                     if "PCAQ4All" in sample:
-                        data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]]
+                        data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]] * ind
 
             ans = ''
-            if (self.answers[2] == '1'):
-                ans = best_bank(data_dict_Q1, int(self.answers[0]))
-            elif (self.answers[2] == '2'):
-                ans = best_bank(data_dict_Q2, int(self.answers[0]))
-            elif (self.answers[2] == '3'):
-                ans = best_bank(data_dict_Q3, int(self.answers[0]))
-            elif (self.answers[2] == '4'):
-                ans = best_bank(data_dict_Q4, int(self.answers[0]))
+            if (self.answers[3] == '1'):
+                ans = best_bank(data_dict_Q1, int(self.answers[0]), float(self.answers[1]), want_credit=(self.answers[2][0] == 'y' or self.answers[2][0] == 'Y'))
+            elif (self.answers[3] == '2'):
+                ans = best_bank(data_dict_Q2, int(self.answers[0]), float(self.answers[1]), want_credit=(self.answers[2][0] == 'y' or self.answers[2][0] == 'Y'))
+            elif (self.answers[3] == '3'):
+                ans = best_bank(data_dict_Q3, int(self.answers[0]), float(self.answers[1]), want_credit=(self.answers[2][0] == 'y' or self.answers[2][0] == 'Y'))
+            elif (self.answers[3] == '4'):
+                ans = best_bank(data_dict_Q4, int(self.answers[0]), float(self.answers[1]), want_credit=(self.answers[2][0] == 'y' or self.answers[2][0] == 'Y'))
             else:
                 ans = "You did something wrong..."
             QtGui.QMessageBox.information(self, "Your bank is...", ans)
+            return
         self.connect(self.get_thread, SIGNAL("add_msg(QString)"), self.add_msg)
         self.get_thread.start()
 
