@@ -27,7 +27,6 @@ def get_minimum_credit_limit(s):  # cat poti sa imprumuti pe luna minim
     with open (s) as f:
         ccc_data = json.load(f)
     #consumer credit compilance
-    print(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"])
     print("\n\n\n\n\n\n\n\n\n")
     if ("MinCreditLimit" in ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]):
         min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["MinCreditLimit"])
@@ -150,24 +149,38 @@ def make_dict_points():
             # print(sample)
             if "PCAQ1All" in sample:
                 data_dict_Q1[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers1[sample["PCAQ1All"]]
-                if "PCAQ2All" in sample:
-                    data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]]
-                    if "PCAQ3All" in sample:
-                        data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]]
-                        if "PCAQ4All" in sample:
-                            data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]]
-    # print(data_dict_Q1["Bank of Scotland"]["25-34"])
-def best_bank(dictionary, age):
+            if "PCAQ2All" in sample:
+                data_dict_Q2[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers2[sample["PCAQ2All"]]
+            if "PCAQ3All" in sample:
+                data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]]
+            if "PCAQ4All" in sample:
+                data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]]
+    print(data_dict_Q1["Bank of Scotland"]["25-34"])
+
+def best_bank(dictionary, age, income, want_credit = False):
     banks = ["Bank of Scotland", "Royal Bank of Scotland", "Barclays", "Halifax", "HSBC UK",  "Lloyds Bank", "NatWest", "Royal Bank of Scotland",
              "Santander", "Clydesdale Bank", "first direct", "Metro Bank", "Nationwide", "Tesco Bank", "The Co-operative Bank", "TSB", "Yorkshire Bank"]
+    credit_dict = generate_credit_dictionary()
     mx = 0
-    mxbank = ""
-    #print(dictionary["Bank of Scotland"])
+    mxbank = "No bank suitable"
     for bank in banks:
-        if (dictionary[bank][age_segment(age)] >= mx):
-            mx = dictionary[bank][age_segment(age)]
-            mxbank = bank
+        print(dictionary[bank])
+        if (want_credit is True):
+            if (bank in credit_dict):
+                if (income > 3 * credit_dict[bank]):
+                    if (dictionary[bank][age_segment(age)] >= mx):
+                        mx = dictionary[bank][age_segment(age)]
+                        mxbank = bank
+            else:
+                if (dictionary[bank][age_segment(age)] >= mx):
+                    mx = dictionary[bank][age_segment(age)]
+                    mxbank = bank
+        else:
+            if (dictionary[bank][age_segment(age)] >= mx):
+                mx = dictionary[bank][age_segment(age)]
+                mxbank = bank
     return mxbank
+
 def age_segment(age):
     if (age <= 24):
         return "16-24"
@@ -203,3 +216,18 @@ def closest_distance_to_atm(s):
         if mn < MN:
             MN = mn
     return MN
+
+def generate_credit_dictionary():
+    credit_dict = {}
+    api_to_bank = {"api/ccc/natwest_ccc.json" : "NatWest",  "api/ccc/bank_of_scotland_ccc.json": "Bank of Scotland", "api/ccc/barclays_ccc.json": "Barclays",
+                   "api/ccc/hsbc_ccc.json": "HSBC UK", "api/ccc/lloyds_ccc.json": "Lloyds Bank", "api/ccc/royal_scotland_ccc.json": "Royal Bank of Scotland", "api/ccc/santander_ccc.json": "Santander"}
+    path_list_ccc = ["api/ccc/natwest_ccc.json", "api/ccc/bank_of_scotland_ccc.json", "api/ccc/barclays_ccc.json", "api/ccc/hsbc_ccc.json",
+                 "api/ccc/lloyds_ccc.json", "api/ccc/royal_scotland_ccc.json", "api/ccc/santander_ccc.json"]
+    for s in path_list_ccc:
+        credit_dict[api_to_bank[s]] = get_minimum_credit_limit(s)
+    return credit_dict
+print(get_minimum_credit_limit("api/ccc/ireland_ccc.json"))
+print(get_minimum_credit_limit("api/ccc/natwest_ccc.json"))
+make_dict_points()
+print(generate_credit_dictionary())
+print(best_bank(data_dict_Q1, 68, 800, True))
