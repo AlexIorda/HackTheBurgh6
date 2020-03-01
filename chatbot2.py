@@ -25,7 +25,7 @@ except AttributeError:
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
-        MainWindow.resize(1112, 508)
+        MainWindow.resize(1112, 518)
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Ubuntu"))
         MainWindow.setFont(font)
@@ -39,10 +39,10 @@ class Ui_MainWindow(object):
         self.scrollArea.setWidgetResizable(True)
         self.scrollArea.setObjectName(_fromUtf8("scrollArea"))
         self.scrollAreaWidgetContents = QtGui.QWidget()
-        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 791, 351))
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 791, 361))
         self.scrollAreaWidgetContents.setObjectName(_fromUtf8("scrollAreaWidgetContents"))
         self.textBrowser = QtGui.QTextBrowser(self.scrollAreaWidgetContents)
-        self.textBrowser.setGeometry(QtCore.QRect(0, 0, 791, 351))
+        self.textBrowser.setGeometry(QtCore.QRect(0, 0, 791, 361))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("ori1Uni"))
         font.setPointSize(18)
@@ -55,7 +55,7 @@ class Ui_MainWindow(object):
         self.textBrowser.setObjectName(_fromUtf8("textBrowser"))
         self.scrollArea.setWidget(self.scrollAreaWidgetContents)
         self.lineEdit = QtGui.QLineEdit(self.centralwidget)
-        self.lineEdit.setGeometry(QtCore.QRect(290, 410, 671, 31))
+        self.lineEdit.setGeometry(QtCore.QRect(290, 410, 681, 31))
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("ori1Uni"))
         font.setPointSize(15)
@@ -145,6 +145,6 @@ class Ui_MainWindow(object):
         self.sendBtn.setText(_translate("MainWindow", "Send", None))
         self.banksBtn.setText(_translate("MainWindow", "  Banks", None))
         self.aboutBtn.setText(_translate("MainWindow", "  About", None))
-        self.label.setText(_translate("MainWindow", "CB", None))
+        self.label.setText(_translate("MainWindow", "BB", None))
         self.resetBtn.setText(_translate("MainWindow", "Reset", None))
 

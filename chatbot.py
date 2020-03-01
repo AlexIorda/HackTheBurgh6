@@ -27,7 +27,6 @@ def get_minimum_credit_limit(s):  # cat poti sa imprumuti pe luna minim
     with open (s) as f:
         ccc_data = json.load(f)
     #consumer credit compilance
-    print("\n\n\n\n\n\n\n\n\n")
     if ("MinCreditLimit" in ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]):
         min_credit = float(ccc_data["data"]["Brand"][0]["CCC"][0]["CCCMarketingState"][0]["CoreProduct"]["MinCreditLimit"])
         return min_credit
@@ -46,9 +45,7 @@ def print_benefits(s):#beneficii dubioase
     #daca are in json dupa data [] trb scoase de la inc si final
     with open (s) as f:
         pca_data = json.load(f)
-    for elem in pca_data["data"]["Brand"][0]["PCA"][0]["PCAMarketingState"][0]["FeaturesAndBenefits"]["FeatureBenefitItem"]:
-        print(elem["Name"])
-
+   
 data_dict_Q1 = {}
 data_dict_Q2 = {}
 data_dict_Q3 = {}
@@ -149,7 +146,6 @@ def make_dict_points():
     bank_to_ind = {"Santander" : 2, "HSBC UK" : 1.8, "Royal Bank of Scotland": 1.7, "Bank of Scotland" : 1.6, "Barclays": 1.5, "Halifax": 1.4, "NatWest": 1.3, "Lloyds Bank": 1.2 }
     for sample1 in data["Data"]["Brand"]:
         for sample in sample1["Data"]:
-            print(sample)
             if (sample["Brand"] in dist_dict):
                 ind = bank_to_ind[sample["Brand"]]
             # print(sample)
@@ -161,8 +157,7 @@ def make_dict_points():
                 data_dict_Q3[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers3[sample["PCAQ3All"]] * ind
             if "PCAQ4All" in sample:
                 data_dict_Q4[sample["Brand"]][sample["Age"]] += sample["Weight"] *  answers4[sample["PCAQ4All"]] * ind
-    print(data_dict_Q1["Bank of Scotland"]["25-34"])
-
+    
 def best_bank(dictionary, age, income, want_credit = False):
     banks = ["Bank of Scotland", "Royal Bank of Scotland", "Barclays", "Halifax", "HSBC UK",  "Lloyds Bank", "NatWest", "Royal Bank of Scotland",
              "Santander", "Clydesdale Bank", "first direct", "Metro Bank", "Nationwide", "Tesco Bank", "The Co-operative Bank", "TSB", "Yorkshire Bank"]
@@ -170,8 +165,7 @@ def best_bank(dictionary, age, income, want_credit = False):
     mx = 0
     mxbank = "No bank suitable"
     for bank in banks:
-        print(dictionary[bank])
-        if (want_credit is True):
+       	if (want_credit is True):
             if (bank in credit_dict):
                 if (income > 3 * credit_dict[bank]):
                     if (dictionary[bank][age_segment(age)] >= mx):
@@ -245,5 +239,4 @@ def generate_credit_dictionary():
 make_dict_points()
 #print(generate_credit_dictionary())
 #print(best_bank(data_dict_Q1, 68, 800, True))
-print(closest_distance_to_atm())
-print(best_bank(data_dict_Q1, 100, 800, True))
+
